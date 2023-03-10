@@ -3,11 +3,24 @@ body{
     padding: 0px;
     height: 100vh;
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: Arial;
     
+}
+
+.Logo{
+    display: flex;
+    color: black;
+    width: 65px;
+    height: 20px;
+    background-color: #EEE;
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 header{
@@ -23,8 +36,9 @@ header{
 
 main{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 
@@ -53,35 +67,32 @@ ul li a{
     color: #fff;
 }
 
-
-.item1 {
-	height: 275px;
-    width: 275px;
-    margin: 5px;
-    border-radius: 40px;
-	background:#6aa84f;
-    font-size: 18px;
-    
+li:hover{
+    text-decoration: underline;
 }
-.item2{
-    height: 275px;
-    width: 275px;
-    margin: 5px;
+main div{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 100px;
     border-radius: 40px;
-	background: #6fa8dc;
-	text-align: center;
-	font-size: 18px;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 24px;
+}  
+
+.item1{
+background-color: #6aa84f;
+}
+
+.item2{
+    background-color: #6fa8dc;
 }
 
 .item3{
-    height: 275px;
-    width: 275px;
-    margin: 5px;
-    border-radius: 40px;
-	background: #f6b26b;
-	text-align: end;
-	font-size: 18px;
+    background-color: #f6b26b;
 }
+
 .container {
     display: flex;
     max-width: 100%;
@@ -95,7 +106,4 @@ ul li a{
 footer{
     height: 60px;
     background-color: #999999;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
